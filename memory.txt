@@ -140,18 +140,18 @@
 
     temperature.degrees = temperature.degrees - 10;
     // m2 {
-    //  degrees = [ 81 - 10 ],
+    //  degrees : [ 81 - 10 ],
     //  ...
     // }
 
     // m2 {
-    //  degrees = [ 71 ],
+    //  degrees : [ 71 ],
     //  ...
     // }
 
     temperature = {};
     // temperature : [ m3 ]
-    
+
     // m3 {} 
 
 
