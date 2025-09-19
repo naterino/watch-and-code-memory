@@ -1,6 +1,7 @@
     // EXAMPLE 1
 
     let myHouse1 = { color: 'blue' };
+    
     // myHouse1 : [ m1 ]
     
     //
@@ -10,9 +11,11 @@
     // }
 
     let myHouse2 = myHouse1
+
     // myHouse2 : [ m1 ]
     
     myHouse2.color = 'red'
+
     // m1
     // {
     //  color: [ 'red' ]
@@ -40,8 +43,15 @@
 
     memory.capacity = memory.capacity / 2;
 
-    // m2.capacity : [ 64 / 2 ]
-    // m2.capacity : [ 32 ]
+    // m2 {
+    //  ...
+    //  capacity: [ 64 / 2 ]
+    // }
+
+    // m2 {
+    //  ...
+    //  capacity: [ 32 ]
+    // }
 
     // m2 {
     //  type: [ "RAM" ]
@@ -51,6 +61,7 @@
     // EXAMPLE 3 
 
     var myArray = ['a', 'b', {}]
+
     // myArray : [ m1 ]
 
     // m1 {
@@ -86,6 +97,7 @@
 
 
     let a = {x: 1, y: {z: true}};
+
     // a: [ m1 ]
 
     // m1 {
@@ -122,6 +134,7 @@
     // EXAMPLE 5 
 
     let weather = { temperature: { degrees: 81, unit: "F"}, isCloudy: false };
+
     // weather : [ m1 ]
 
     // m1 {
@@ -139,6 +152,7 @@
     // temperature : [ m2 ]
 
     temperature.degrees = temperature.degrees - 10;
+
     // m2 {
     //  degrees : [ 81 - 10 ],
     //  ...
@@ -150,12 +164,14 @@
     // }
 
     temperature = {};
+
     // temperature : [ m3 ]
 
     // m3 {} 
 
 
     temperature.degrees = 4;
+
     // m3 {
-    //  degrees: 4
+    //  degrees: [ 4 ]
     // }
